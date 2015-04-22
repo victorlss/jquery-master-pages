@@ -10,24 +10,29 @@
  *
  * Project: https://github.com/victorlss/jquery-master-pages
  */
-$(document).ready(function(){
-    loadMasterPages($("script[MasterPageFile]").attr('MasterPageFile'));
-});
-
-function loadMasterPages(url){
-	$.get(url, function(page){
-		pagePlaceholders = $(document).find("Content");			
-		var masterPage = document.open("text/html", "replace");
-		masterPage.write(page);
-		masterPage.close();
-
-		$(masterPage).find("ContentPlaceHolder").each(function(){
-			var masterPlace = this;
-			pagePlaceholders.each(function(){
-				if(masterPlace.id == $(this).attr("ContentPlaceHolderID")){
-					$(masterPlace).replaceWith(this);
-				}
-			});
-		});
-	})
-}
+(function($){
+  function loadMasterPages(url, callback){
+  	$.get(url, function(page){
+  		pagePlaceholders = $(document).find("Content");			
+  		var masterPage = document.open("text/html", "replace");
+  		masterPage.write(page);
+  		masterPage.close();
+  
+  		$(masterPage).find("ContentPlaceHolder").each(function(){
+  			var masterPlace = this;
+  			pagePlaceholders.each(function(){
+  				if(masterPlace.id == $(this).attr("ContentPlaceHolderID")){
+  					$(masterPlace).replaceWith(this);
+  				}
+  			});
+  		});
+      if(callback && typeof callback === "function"){
+        callback.call();
+      }
+  	});
+  }
+  $.fn.master = function(url, callback){
+    loadMasterPages(url, callback);
+    return this;
+  };
+}(jQuery));
