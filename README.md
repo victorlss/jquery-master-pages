@@ -1,6 +1,6 @@
 # jQuery Master Pages
 
-Using master pages like [ASP.NET](https://msdn.microsoft.com/en-us/library/wtxbf3hh.aspx) with jQuery
+Using master pages like <a href="https://msdn.microsoft.com/en-us/library/wtxbf3hh.aspx" target="_blank">ASP.NET</a> with jQuery
 
 ##### Master Page code:
 ```html
@@ -38,4 +38,6 @@ Using master pages like [ASP.NET](https://msdn.microsoft.com/en-us/library/wtxbf
 </Content>
 ```
 
-<a href="aaa">teste</a>
+
+
+Built by <a href="https://github.com/victorlss" target="_blank">Victor Silva</a> and <a href="https://github.com/Ykary" target="_blank">Alyson Freitas</a>
