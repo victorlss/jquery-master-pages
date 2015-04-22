@@ -1,6 +1,6 @@
 # jQuery Master Pages
 
-Using master pages like <a href="https://msdn.microsoft.com/en-us/library/wtxbf3hh.aspx" target="_blank">ASP.NET</a> with jQuery
+Using master pages like <a href="https://msdn.microsoft.com/en-us/library/wtxbf3hh.aspx" target="_blank">ASP.NET</a> with jQuery.<br />
 
 Download the <a href="https://raw.githubusercontent.com/victorlss/jquery-master-pages/master/_lib/jquery.masterpages-1.0.1.min.js" target="_blank">production version</a> or the Download the <a href="https://raw.githubusercontent.com/victorlss/jquery-master-pages/master/_lib/jquery.masterpages-1.0.1.js" target="_blank">development version</a>.
 
