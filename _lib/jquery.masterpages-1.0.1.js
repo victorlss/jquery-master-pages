@@ -1,5 +1,6 @@
 /*!
  * jQuery Master Pages v1.0.1
+ * Built by Victor Silva (https://github.com/victorlss) and Alyson Freitas https://github.com/Ykary)
  */
 
 $(document).ready(function(){
