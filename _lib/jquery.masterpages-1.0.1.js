@@ -15,8 +15,8 @@ $(document).ready(function(){
 	loadMasterPages($("script[MasterPageFile]").attr('MasterPageFile'));
 });
 
-function loadMasterPages(location){
-	$.get(location, function(page){
+function loadMasterPages(url){
+	$.get(url, function(page){
 		pagePlaceholders = $(document).find("Content");			
 		var masterPage = document.open("text/html", "replace");
 		masterPage.write(page);
