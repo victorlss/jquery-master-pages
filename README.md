@@ -40,4 +40,5 @@ Using master pages like <a href="https://msdn.microsoft.com/en-us/library/wtxbf3
 
 
 
-Built by <a href="https://github.com/victorlss" target="_blank">Victor Silva</a> and <a href="https://github.com/Ykary" target="_blank">Alyson Freitas</a>
+Built by 
+<a href="https://github.com/victorlss" target="_blank">Victor Silva</a> and <a href="https://github.com/Ykary" target="_blank">Alyson Freitas</a>
