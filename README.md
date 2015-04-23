@@ -40,6 +40,6 @@ Download the <a href="https://raw.githubusercontent.com/victorlss/jquery-master-
 </Content>
 ```
 
-Authors: <a href="https://github.com/victorlss" target="_blank">Victor Silva</a>, <a href="https://github.com/Ykary" target="_blank">Alyson Freitas</a> and <a href="https://github.com/edgardleal" target="_blank">Edgard Leal</a>.<br />
+Authors: <a href="https://github.com/victorlss" target="_blank">Victor Silva</a>, <a href="https://github.com/Ykary" target="_blank">Alyson Freitas</a>, <a href="https://github.com/edgardleal" target="_blank">Edgard Leal</a>.<br />
 All Rights Reserved.<br />
 Use, reproduction, distribution, and modification of this code is subject to the terms and conditions of the MIT license, available at <a href="http://www.opensource.org/licenses/mit-license.php" target="_blank">http://www.opensource.org/licenses/mit-license.php</a>.
