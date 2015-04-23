@@ -1,8 +1,8 @@
-/*!
+/*
  * jQuery Master Pages v1.0.1
  * 
  * Copyright 2015
- * Authors: Victor Silva, Alyson Freitas, and Edgard Leal
+ * Authors: Victor Silva (https://github.com/victorlss) and Alyson Freitas (https://github.com/Ykary)
  * All Rights Reserved.
  * Use, reproduction, distribution, and modification of this code is subject to the terms and
  * conditions of the MIT license, available at http://www.opensource.org/licenses/mit-license.php
