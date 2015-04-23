@@ -1,6 +1,6 @@
-<script src="_lib/jquery-1.4.1.min.js"></script>
-<script src="_lib/jquery.masterpages-1.0.1.min.js" MasterPageFile="_template/site.master.html"></script>
-
+<div id="loading" style="width:100%;height:100%">
+ Loading...
+</div>
 <!-- head -->
 <Content ContentPlaceHolderID="HeadContent">
 	<title>This is the title</title>
@@ -8,7 +8,7 @@
 
 <!-- content -->
 <Content ContentPlaceHolderID="MainContent"/>
-	<p>This is the content</p>
+	<p>This is the content of current page</p>
 	<hr />
 </Content>
 
@@ -17,3 +17,16 @@
 	<p>This is the footer</p>
 	<hr />
 </Content>
+
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="_lib/jquery.masterpages-1.0.1.js" MasterPageFile="_template/site.master.html"></script>
+
+<script>
+$(document).ready(function(){
+  $(document).master('_template/site.master.html', function(){
+    $('#loading').hide();
+  });
+    // or you can use this way
+    // loadMasterPages($("script[MasterPageFile]").attr('MasterPageFile'));
+});
+</script>
