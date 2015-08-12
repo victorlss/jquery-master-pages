@@ -21,7 +21,7 @@ Download the <a href="https://raw.githubusercontent.com/victorlss/jquery-master-
 
 ##### Page code:
 ```html
-<script src="_lib/jquery-1.4.1.min.js"></script>
+<script src="_lib/jquery-1.11.3.min.js"></script>
 <script src="_lib/jquery.masterpages-1.0.1.min.js" MasterPageFile="_template/site.master.html"></script>
 
 <!-- head -->
