@@ -19,10 +19,10 @@ function loadMasterPages(location){
     var masterPage = document.open("text/html", "replace");
     masterPage.write(page);
     masterPage.close();
-    $(masterPage).find("ContentPlaceHolder").each(function(){
+    $(masterPage).find("[ContentPlaceHolderID]").each(function(){
       var masterPlace = this;
       pagePlaceholders.each(function(){
-        if(masterPlace.id == $(this).attr("ContentPlaceHolderID")){
+        if($(masterPlace).attr("ContentPlaceHolderID") == $(this).attr("ContentPlaceHolderID")){
           $(masterPlace).replaceWith(this);
         }
       });
