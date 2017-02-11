@@ -2,7 +2,7 @@
 
 Using master pages like <a href="https://msdn.microsoft.com/en-us/library/wtxbf3hh.aspx" target="_blank">ASP.NET</a> with jQuery.<br />
 
-Download the <a href="https://raw.githubusercontent.com/victorlss/jquery-master-pages/master/_lib/jquery.masterpages-1.0.1.min.js" target="_blank">production version</a> or <a href="https://raw.githubusercontent.com/victorlss/jquery-master-pages/master/_lib/jquery.masterpages-1.0.1.js" target="_blank">development version</a>.
+<a href="https://raw.githubusercontent.com/victorlss/jquery-master-pages/master/src/jquery.masterpages-1.0.1.js" target="_blank">Latest Version Download (1.1.0)</a>
 
 ##### Master Page code:
 ```html
@@ -11,7 +11,7 @@ Download the <a href="https://raw.githubusercontent.com/victorlss/jquery-master-
 		<ContentPlaceHolder id="HeadContent"></ContentPlaceHolder>
 	</head>
 	<body>
-		<p>Content that is in the master page</p>
+		<p>Content in master page</p>
 		<hr />	
 		<ContentPlaceHolder id="MainContent"></ContentPlaceHolder>
 		<ContentPlaceHolder id="FooterContent"></ContentPlaceHolder>
@@ -21,22 +21,22 @@ Download the <a href="https://raw.githubusercontent.com/victorlss/jquery-master-
 
 ##### Page code:
 ```html
-<script src="_lib/jquery-1.11.3.min.js"></script>
-<script src="_lib/jquery.masterpages-1.0.1.min.js" MasterPageFile="_template/site.master.html"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="jquery.masterpages-1.0.1.js" MasterPageFile="templates/site.master.html"></script>
 
 <!-- head -->
 <Content ContentPlaceHolderID="HeadContent">
-	<title>This is the title</title>
+	<title>Title of Page</title>
 </Content>
 
 <!-- content -->
 <Content ContentPlaceHolderID="MainContent"/>
-	<p>This is the content</p>
+	<p>MainContent of current page</p>
 </Content>
 
 <!-- footer -->
 <Content ContentPlaceHolderID="FooterContent"/>
-	<p>This is the footer</p>
+	<p>FooterContent of current page</p>
 </Content>
 ```
 
